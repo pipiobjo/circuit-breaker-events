@@ -1,6 +1,6 @@
 # Spring Boot 2 demo of Resilience4j
 
-[![Build Status](https://travis-ci.org/resilience4j/resilience4j-spring-boot2-demo.svg?branch=master)](https://travis-ci.org/resilience4j/resilience4j-spring-boot2-demo)
+Based on the sample from https://github.com/resilience4j/resilience4j-spring-boot2-demo
 
 This demo shows how to use the fault tolerance library [Resilience4j](https://github.com/resilience4j/resilience4j) in a Spring Boot 2 application.
 
@@ -46,12 +46,7 @@ Configure the Grafana.
     - Import dashboard
     - Upload dashboard.json from /docker
 
-## License
-
-Copyright 2019 Robert Winkler
-
-Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+## Further links
+https://medium.com/capital-one-tech/resiliency-patterns-at-the-edge-capital-one-a5b4d41d477e
+https://www.slideshare.net/ufried/patterns-of-resilience
+https://docs.microsoft.com/en-us/azure/architecture/patterns/bulkhead
